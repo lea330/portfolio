@@ -18,6 +18,8 @@ a{color:#555;text-decoration: none;}
 html, body{
     width: 100%;
     height: 100%;
+    min-width: 1280px;
+    min-height: 569px;
     }
 img{
     width: 100%;
@@ -179,8 +181,12 @@ img{
     overflow: hidden;
     margin:4% 2%;
 }
-
-
+#home .box1 ul li a img{
+    transition: all 0.2s linear;
+}
+#home .box1 ul li a:hover img{
+    transform: scale(1.05);
+}
 #home .box2{
     width: 30%;
 }
@@ -212,18 +218,85 @@ img{
     text-align: left;
     padding: 0 0 5% 10%;
 }
-.box2 .intro span{
+.box2 .intro>span{
     font-size: 13px;
     font-weight: bold;
     line-height: 30px;
 }
-.box2 .intro span::before{
+.box2 .intro>span::before{
     content: '●';
     color: #fe9900;
     padding-right: 5px;
 }
 .box2 .intro p{
     font-size: 10px;
+}
+.box2 .intro .bar{
+    
+}
+.box2 .intro .bar li{
+}
+.box2 .intro .bar li span{
+    height: 16px;
+    display: block;
+    float: left;
+    line-height: 16px;
+}
+.box2 .intro .bar li span:nth-child(1){
+    font-size: 10px;
+    width: 20%;
+}
+.box2 .intro .bar li span:nth-child(2){
+    width: 70%;
+    border-radius: 20px;
+    background-color: #ddd;
+    height: 10px;
+    margin: 3px 0;
+}
+.box2 .intro .bar li span:nth-child(2) p{
+    height: 100%;
+    border-radius: 20px;
+    background-color: #fe9900;
+    
+}
+.box2 .intro .bar li span:nth-child(2) .bar1, .box2 .intro .bar li span:nth-child(2) .bar3, .box2 .intro .bar li span:nth-child(2) .bar4{
+    width: 80%;
+    animation: bar1 2s ease-out;
+}
+
+@keyframes bar1 { 
+  0%  { 
+    width: 0%;
+  } 
+  100% { 
+    width: 80%;
+  }  
+}
+.box2 .intro .bar li span:nth-child(2) .bar2{
+    width: 85%;
+    animation: bar2 2s ease-out;
+}
+
+@keyframes bar2 { 
+  0%  { 
+    width: 0%;
+  } 
+  100% { 
+    width: 85%;
+  }  
+}
+.box2 .intro .bar li span:nth-child(2) .bar5, .box2 .intro .bar li span:nth-child(2) .bar6{
+    width: 70%;
+    animation: bar5 2s ease-out;
+}
+
+@keyframes bar5 { 
+  0%  { 
+    width: 0%;
+  } 
+  100% { 
+    width: 70%;
+  }  
 }
 
 #uiux ul{
@@ -298,6 +371,9 @@ img{
 #logo .logo_in ul li{
     margin-bottom: 20px;
 }
+#logo .logo_in ul li:nth-child(3){
+    margin-bottom: 50px;
+}
 #logo .logo_in ul li span{
     font-weight: bold;
     width: 30%;
@@ -325,21 +401,24 @@ img{
     
 }
 #con .con_in{
-    margin: 4%;
+    width:100%;
+    height:100%;
+    overflow: hidden;
 }
-#con .con_in .slick-slide{
+#con .con_in .con_1{
+    margin: 2% 7%;
     width:100%;
     height:100%;
 }
-#con .con_in .slick-slide a{
-    width:22%;
+#con .con_in .con_1 a{
+    width: 14%;
     margin-right: 4%;
     margin-bottom: 2%;
     float: left;
-    border-radius: 20px;
+    border-radius: 10px;
     overflow: hidden;
 }
-#con .con_in .slick-slide a:nth-child(4),#con .con_in .slick-slide a:nth-child(8){
+#con .con_in .con_1 a:nth-child(5),#con .con_in .con_1 a:nth-child(10){
     margin-right: 0;
 }
 
@@ -352,3 +431,60 @@ img{
 #illu img{
     width:100%;
 }
+
+
+.sns_modal_wrap, .home_modal_wrap, .uiux_modal_wrap{
+    display: none;
+    width:100%;
+    height:100%;
+    position: fixed;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 1;
+}
+.sns_modal{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+}
+.sns_modal>div, .home_modal>div, .uiux_modal>div{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+}
+.sns_modal img{
+    width: 40%;
+    margin: 2% auto;
+}
+
+.home_modal, .uiux_modal{
+    width: 100%;
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    padding:20px 10px;
+    overflow:hidden;
+    overflow-y:auto;
+    -webkit-overflow-scrolling:touch;
+}
+
+.home_modal>div img, .uiux_modal>div img{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.close {
+    position:absolute;
+    top:0;
+    right:0;
+    color: #fff;
+    background-color: rgba(0,0,0,0);
+    border: 0;
+    padding:20px;
+}
+
+.close1:after {content: "\00d7"; font-size:50px;line-height:35px;}
