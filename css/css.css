@@ -26,67 +26,6 @@ img{
     display: block;
 }
 
-.go{
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    display: flex;
-    /*중앙정렬*/
-    /*display: flex;
-    justify-content: center;
-    align-items: center;*/
-}
-.go li{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.go li a{
-    width: 160px;
-    height: 160px;
-    color: #222;
-    background-color:#fff;
-    background: rgba( 255, 255, 255, 0.7 );
-    box-shadow: 0 8px 16px 0 rgba( 0, 0, 0, 0.15 );
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
-    border-radius: 20px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
-}
-.go .pdf{
-    background-color: #f6f5f1;
-}
-.go .web{
-    background-color: #ffebcc;
-}
-.go li a span{
-    font-size: 50px;
-}
-.go li a p{
-    line-height: 50px;
-
-
-}
-
-
-
-@media all and (max-width: 768px) {
-.go{
-    display: block;
-}
-.go li{
-    height: 50%;
-    flex-direction:column;
-}
-    
-}
-
-
 
 /* 메인페이지 */
 
