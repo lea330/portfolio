@@ -64,7 +64,7 @@ section{}
 
 .show{transition: .3s ease;opacity: 1;}
 
-.pop{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background: rgba(0,0,0,0.6);z-index: 100;overflow: auto;
+.pop{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background: rgba(0,0,0,0.6);z-index: 120;overflow: auto;
   -ms-overflow-style: none;}
 .pop::-webkit-scrollbar{display:none;}
 .pop_in{padding: 20px 60px;}
@@ -139,10 +139,14 @@ section{}
   /* #con2 시작 */
   #list li{width: 50%;}
 
+  .pop_in {padding: 16% 5%;}
 
   /* #con3 시작 */
   #con3{height: auto;}
+  #con3 .con_in_wrap{width: 80%;}
   #con3 .con_in_wrap .left{width: 100%;}
   #con3 .con_in_wrap .right{width: 100%;}
+  #con3 .con_in .memoji{margin: 20px auto;}
+  .p_center{text-align: center;}
 
 }
