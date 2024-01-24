@@ -46,7 +46,7 @@ section{}
 
 
 /* #con2 시작 */
-#con2{padding:80px 0;box-sizing:border-box;}
+#con2{padding:80px 0 0 0;box-sizing:border-box;}
 #category{padding-bottom: 24px;text-align: center;}
 #category li{display: inline-block;}
 #category li a{padding:12px 30px;border-radius: 50px;}
@@ -73,6 +73,7 @@ section{}
 .close{position: fixed;border: none;cursor: pointer;display:inline-block;*display:inline;background-color: rgba(0,0,0,0);}
 .close{right:20px;top:20px;}
 .close:after {display: inline-block;content: "\00d7"; font-size:30px;}
+.website{position: absolute;top:72px;right:8%;border: none;cursor: pointer;display:inline-block;padding: 16px 32px;background-color: black;border-radius: 8px}
 
 
 /* #con3 시작 */
@@ -83,7 +84,7 @@ section{}
 #con3 .con_in_wrap:after{content: '';display: block;clear: both;}
 #con3 .con_in_wrap .left{width: 50%;}
 #con3 .con_in_wrap .right{width: 50%;}
-#con3 .con_in{margin-top: 30px;}
+#con3 .con_in{margin-top: 24px;}
 #con3 .con_in p{line-height: 24px;color: #aaa;}
 #con3 .con_in h2{font-size: 1.0em;color: #2ab8ec;margin-bottom: 10px;}
 #con3 .con_in .memoji{width: 35%;background-color: #2ab8ec;border-radius: 50%;margin-bottom: 30px;}
