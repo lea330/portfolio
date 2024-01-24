@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>바디프랜드</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    
+</head>
+<body>
+    <div class="menu">
+        <h1 class="logo"><img src="img/logo_w.png"></h1>
+        <ul class="hd_left">
+            <li><a href="#">쇼핑</a></li>
+            <li><a href="#">혜택</a></li>
+            <li><a href="#">고객지원</a></li>
+            <li><a href="#">제휴 및 할인</a></li>
+            <li><a href="#">법인/관공서 문의</a></li>
+            <li><a href="#">전시장 체험 예약</a></li>
+        </ul>
+        <ul class="hd_right">
+            <li><a href="#" alt="검색"><img src="img/search.png"></a></li>
+            <li><a href="#" alt="마이페이지"><img src="img/mypage.png"></a></li>
+            <li><a href="#" alt="장바구니"><img src="img/cart.png"></a></li>
+        </ul>
+    </div>
+
+    <div id="con1" class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="swiper-slide mainsd1" alt="메인배너1 더파라오">
+                    <div class="main_txt">
+                        <h2><img src="img/logo_pharaoh.png"></h2>
+                        <h3>Endless Charisma</h3>
+                        <span>더파라오</span>
+                        <p>경계와 영역을 넘어 단연 독보적인 헬스케어 테크놀러지로 진화한<br>더파라오와 함꼐 시공을 초월한 절대 카리스마의 부활을 경험하세요.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="swiper-slide">
+                <div class="swiper-slide mainsd2" alt="메인배너2 이미 모션베드">
+                    <div class="main_txt">
+                        <h2><img src="img/logo_easy.png"></h2>
+                        <h3>꿀잠을 부르는 모션 생활</h3>
+                        <span>이지 모션베드</span>
+                        <p>일상에 지친 현대인들에게 최고의 휴식을 선사해주는<br>인체공학적 리클라이닝 기능을 갖춘 베드 솔루션입니다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="swiper-slide mainsd3" alt="메인배너2 w정수기">
+                    <div class="main_txt">
+                        <h2><img src="img/logo_water.png"></h2>
+                        <h3>예쁜 정수기에 건강함을 담다.</h3>
+                        <span>W냉온정수기 브레인 코어</span>
+                        <p>직수관과 코크를 오염 부식에 강한 스테인리스로 만들어<br>위생에 더욱 신경을 썼습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="nav_button">
+            <!-- 시작, 정지 버튼 -->
+            <div class="nav1">
+                <div class="mb_pause">
+                    <p class="bar"></p>
+                    <p class="bar"></p>
+                </div>
+                <div class="mb_start">
+                    <div></div>
+                </div>
+            </div>
+            <!-- 이전, 다음 버튼 -->
+            <div class="nav2">
+                <div class="mb_prev"><img src="img/arrow2.png"></div>
+                <div class="mb_next"><img src="img/arrow1.png"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="con2">
+        <div class="tabs">
+            <input id="one" type="radio" name="tab_item" checked>
+            <label class="tab_item one" for="one"><img src="img/logo_g.png">안마의자</label>
+            <input id="two" type="radio" name="tab_item">
+            <label class="tab_item two" for="two"><img src="img/lacloud_logo_g.png">천연 라텍스 침대</label>
+            <input id="three" type="radio" name="tab_item">
+            <label class="tab_item three" for="three"><img src="img/w_logo_g.png">정수기</label>
+            <div class="tab_content" id="one_content">
+                <div class="product">
+                    <a href="#">
+                        <img src="img/con2_img1.png">
+                        <div class="info">
+                            <p>파라오2 블랙</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="img/con2_img2.png">
+                        <div class="info">
+                            <p>더팬텀</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="img/con2_img3.png">
+                        <div class="info">
+                            <p>팬텀 메디컬케어</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="tab_content" id="two_content">
+                <div class="product">
+                    <a href="#">
+                        <img src="img/con2_img4.png">
+                        <div class="info">
+                            <p>이제 모션베드</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="img/con2_img5.png">
+                        <div class="info">
+                            <p>파라오 모션케어</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="img/con2_img6.png">
+                        <div class="info">
+                            <p>라클라우드</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="tab_content" id="three_content">
+                <div class="product">
+                    <a href="#">
+                        <img src="img/con2_img7.png">
+                        <div class="info">
+                            <p>W냉온정수기 브레인 코어</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="img/con2_img8.png">
+                        <div class="info">
+                            <p>W정수기 브레인(마이크로실버)</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src="img/con2_img9.png">
+                        <div class="info">
+                            <p>W정수기 브레인(크림화이트)</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        
+
+        
+    </div>
+
+    <div id="con3">
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="img/icon1.png" alt="위치 아이콘">
+                    <h3>전국 전시장 안내</h3>
+                    <p>가까운 바디프랜드<br>전시장 찾기</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/icon2.png" alt="영상 아이콘">
+                    <h3>바디프랜드 CF영상</h3>
+                    <p>미디어 속 바디프랜드<br>만나보기</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/icon3.png" alt="이벤트 아이콘">
+                    <h3>바디프랜드 이벤트</h3>
+                    <p>안 보면 손해!<br>각종 행사 한 눈에 보기</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/icon4.png" alt="금액 아이콘">
+                    <h3>선납금 안내</h3>
+                    <p>선납 시 월 렌탈료<br>최대 5만원 할인</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/icon5.png" alt="카드 아이콘">
+                    <h3>제휴카드 안내</h3>
+                    <p>월 렌탈료 최대 3만원<br>청구 할인</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="con4">
+        <h3>Popular</h3>
+        <h1>지금 <span>가장 인기있는 모델</span>을 확인하세요.</h1>
+        <div class="swiper2">
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide">
+                    <div class="slide_in">
+                        <div class="tit">
+                            <span>Endless Charisma</span>
+                            <h3>더파라오</h3>
+                        </div>
+                        <img src="img/con4_img1.png">
+                        <ul class="txt">
+                            <li>
+                                <span>구매</span>
+                                <p><strong>6,200,000</strong>원</p>
+                            </li>
+                            <li>
+                                <span>렌탈</span>
+                                <p>월 <strong>109,500</strong>원 (약정 59개월)<br>
+                                월 <strong>159,500</strong>원 (약정 39개월)
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+                <a href="#" class="swiper-slide">
+                    <div class="slide_in">
+                        <div class="tit">
+                            <span>Medical Care</span>
+                            <h3>팬텀메디컬케어</h3>
+                        </div>
+                        <img src="img/con4_img2.png">
+                        <ul class="txt">
+                            <li>
+                                <span>구매</span>
+                                <p><strong>5,800,000</strong>원</p>
+                            </li>
+                            <li>
+                                <span>렌탈</span>
+                                <p>월 <strong>99,500</strong>원 (약정 59개월)<br>
+                                월 <strong>149,500</strong>원 (약정 39개월)
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+                <a href="#" class="swiper-slide">
+                    <div class="slide_in">
+                        <div class="tit">
+                            <span>I'm the Best Performer</span>
+                            <h3>더팬텀</h3>
+                        </div>
+                        <img src="img/con4_img3.png">
+                        <ul class="txt">
+                            <li>
+                                <span>구매</span>
+                                <p><strong>5,400,000</strong>원</p>
+                            </li>
+                            <li>
+                                <span>렌탈</span>
+                                <p>월 <strong>94,500</strong>원 (약정 59개월)<br>
+                                월 <strong>139,500</strong>원 (약정 39개월)
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+                <a href="#" class="swiper-slide">
+                    <div class="slide_in">
+                        <div class="tit">
+                            <span>Brain Massage</span>
+                            <h3>파라오2 블랙에디션</h3>
+                        </div>
+                        <img src="img/con4_img4.png">
+                        <ul class="txt">
+                            <li>
+                                <span>구매</span>
+                                <p><strong>6,200,000</strong>원</p>
+                            </li>
+                            <li>
+                                <span>렌탈</span>
+                                <p>월 <strong>109,500</strong>원 (약정 59개월)<br>
+                                월 <strong>159,500</strong>원 (약정 39개월)
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+                <a href="#" class="swiper-slide">
+                    <div class="slide_in">
+                        <div class="tit">
+                            <span>Endless Charisma</span>
+                            <h3>팬텀 로보</h3>
+                        </div>
+                        <img src="img/con4_img5.png">
+                        <ul class="txt">
+                            <li>
+                                <span>구매</span>
+                                <p><strong>5,900,000</strong>원</p>
+                            </li>
+                            <li>
+                                <span>렌탈</span>
+                                <p>월 <strong>109,500</strong>원 (약정 59개월)<br>
+                                월 <strong>159,500</strong>원 (약정 39개월)
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+                <a href="#" class="swiper-slide">
+                    <div class="slide_in">
+                        <div class="tit">
+                            <span>Easy Motion Bed</span>
+                            <h3>이지 모션베드</h3>
+                        </div>
+                        <img src="img/con4_img6.png">
+                        <ul class="txt">
+                            <li>
+                                <span>구매</span>
+                                <p><strong>1,400,000</strong>원</p>
+                            </li>
+                            <li>
+                                <span>렌탈</span>
+                                <p>월 <strong>25,000</strong>원 부터 (약정 59개월)
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+                <a href="#" class="swiper-slide">
+                    <div class="slide_in">
+                        <div class="tit">
+                            <span>W냉온정수기</span>
+                            <h3>브레인 코어(크림화이트)</h3>
+                        </div>
+                        <img src="img/con4_img7.png">
+                        <ul class="txt">
+                            <li>
+                                <span>구매</span>
+                                <p><strong>1,453,000</strong>원</p>
+                            </li>
+                            <li>
+                                <span>렌탈</span>
+                                <p>월 <strong>26,900</strong>원 부터 (약정 60개월)
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+
+            <div class="con4_nav">
+                <div class="con4_prev"><img src="img/arrow2_g.png"></div>
+                <div class="con4_next"><img src="img/arrow1_g.png"></div>
+            </div>
+             <div class="swiper-scrollbar"></div>
+
+        </div>
+    </div>
+
+    <div id="con5" class="swiper3">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="info_img">
+                    <img src="img/con5_img1.png">
+                    <span>Jeanne d'Arc [잔다르크]<br>SO HYUN WOO</span>
+                </div>
+                <div class="info_txt">
+                    <span>Collaboration</span>
+                    <h2>바디프랜드 x <span>아티스트</span></h2>
+                    <p>건강한 아름다움은 예쑬적 가치와도 맞닿아 있습니다.<br>
+                    바디프랜드는 아티스트와의 콜라보레이션 작품을 꾸준히 선보이는 동시에
+                    그들의 창의적인 예술 활동을 지원합니다.</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="info_img">
+                    <img src="img/con5_img2.png">
+                    <span></span>
+                </div>
+                <div class="info_txt">
+                    <span>Collaboration</span>
+                    <h2>바디프랜드 x <span>어린이날</span></h2>
+                    <p>강남드림빌 보육원에 LA 갈비, 닭강정, 다과세트 등 각종 먹거리 지원과 
+                    직원 및 보육원 선생님들을 위한 소형 마사지기 미니건 기부</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="info_img">
+                    <img src="img/con5_img3.png">
+                    <span>‘토닥토닥 앙상블’ 밴드의 ‘이음 콘서트’</span>
+                </div>
+                <div class="info_txt">
+                    <span>Collaboration</span>
+                    <h2>바디프랜드 x <span>이음 콘서트</span></h2>
+                    <p>발달장애 음악인 직원들로 구성된 ‘토닥토닥 앙상블’ 밴드 통해 사내행사 진행 및 ‘직원을 위한 직원’ 정규직 채용으로 안정적 직장 생활 보장</p>
+                </div>
+            </div>
+        </div>
+        <div class="con5_nav">
+            <div class="con5_prev"><img src="img/arrow2_g.png"></div>
+            <div class="con5_next"><img src="img/arrow1_g.png"></div>
+        </div>
+    </div>
+    
+    <div id="footer_wrap">
+        <div class="footer">
+            <ul class="f_menu">
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">사이트 맵</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">사업자정보확인</a></li>
+                <li><a href="#">에스크로서비스 가입확인</a></li>
+                <li><a href="#">온라인 서비스 접수</a></li>
+            </ul>
+            <div class="f_body">
+                <p class="f_br">(주)바디프랜드 대표이사 : 박상현</p>
+                <p>서울특별시 강남구 양재천로 163 바디프랜드 도곡타워</p>
+                <p class="f_border"><a href="#">사업자 등록 번호 : 106-86-49737</a></p><br>
+                <p class="f_br">통신판매업신고 : 제 강남 15396</p>
+                <p class="f_border">개인정보 책임자 : 홍성진</p><br>
+                <p class="f_br">신규 렌탈 접수 구매 문의 : 02-3448-0858</p>
+                <p>기존 렌탈 고객 문의 : 02-3423-9510</p>
+                <p class="f_border">서비스 접수 문의 : 02-3272-0207</p><br>
+                <p class="f_br">법인 관공서 렌탈/구매 문의 : 02-598-8980</p>
+            </div>
+            
+            <p class="copyright">Copyright 2018. BODYFRIEND,Inc.All Rights Reserved.</p>
+            
+            <div class="family_site">
+                <select name="list">
+                    <option selected value="#">Family Site</option>
+                    <option value="#">바디프랜드 고객센터</option>
+                    <option value="#">핏타임</option>
+                    <option value="#">르마블</option>
+                </select>
+            </div>
+            
+            <div class="call">
+                <h3>대표번호 02-3448-8980</h3>
+                <p>상담시간: 평일 8:30 ~ 17:30<br>
+                    (점심시간: 12:00 ~ 13:00)</p>
+            </div>
+
+            <div class="sns">
+                <a href="#"><img src="img/icon_facebook.png"></a>
+                <a href="#"><img src="img/icon_insta.png"></a>
+                <a href="#"><img src="img/icon_blog.png"></a>
+                <a href="#"><img src="img/icon_youtube.png"></a>
+            </div>
+        </div>
+    </div>
+</body>
