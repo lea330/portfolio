@@ -73,7 +73,9 @@ section{}
 .close{position: fixed;border: none;cursor: pointer;display:inline-block;*display:inline;background-color: rgba(0,0,0,0);}
 .close{right:20px;top:20px;}
 .close:after {display: inline-block;content: "\00d7"; font-size:30px;}
-.website{position: absolute;top:72px;right:8%;border: none;cursor: pointer;display:inline-block;padding: 16px 32px;background-color: black;border-radius: 8px}
+.button_wrap{position: absolute;top:72px;right:8%;}
+.button_wrap button{border: none;cursor: pointer;display:inline-block;padding: 16px 32px;background-color: black;border-radius: 8px;transition: 0.5s all;}
+.button_wrap button:hover{background-color: #2ab8ec;}
 
 
 /* #con3 시작 */
