@@ -1,18 +1,6 @@
 @charset 'UTF-8';
 
 @font-face {
-    font-family: 'S-CoreDream-4Regular';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'S-CoreDream-6Bold';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
     font-family: 'NanumSquareNeo-Variable';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
     font-weight: normal;
@@ -23,14 +11,11 @@
 ul{list-style: none;}
 a{color: inherit; text-decoration: none;display: block;}
 
-html, body{width: 100%; height: 100%;scroll-behavior: smooth;overflow-x: hidden;min-width: 1440px;}
+html, body{width: 100%;overflow-x: hidden;min-width: 1440px;}
 img{width: 100%; display: block;}
 
 ul:after{content: '';display: block;clear: both;}
 p{font-size: .9em;}
-
-#nav{position: fixed;top:0;right:0;}
-#nav li{padding:12px 30px;float: left;}
 
 /*메뉴*/
 .menu{width: 1280px;margin: 0 auto;position: relative;z-index: 100;}
@@ -83,8 +68,21 @@ input[name="tab_item"] {display: none;}
 .tab_content {display: none;padding-top:130px;clear: both;overflow: hidden;}
 .product a{float: left;position: relative}
 .product a:nth-child(1){width: 840px;height: 600px;}
-.product a:nth-child(2){width: 400px;height :auto;margin: 0 0 40px 40px;}
-.product a:nth-child(3){width: 400px;height :auto;margin: 0 0 0 40px;}
+.product a:nth-child(2){width: 400px;height : 280px;margin: 0 0 40px 40px;}
+.product a:nth-child(3){width: 400px;height : 280px;margin: 0 0 0 40px;}
+.product a .info_img{width:100%;height:100%;background-position: center;background-repeat: no-repeat;}
+
+.product1 a:nth-child(1) .info_img{background-image:url("../img/con2_img1.png");}
+.product1 a:nth-child(2) .info_img{background-image: url("../img/con2_img2.png");}
+.product1 a:nth-child(3) .info_img{background-image: url("../img/con2_img3.png");}
+
+.product2 a:nth-child(1) .info_img{background-image: url("../img/con2_img4.png");}
+.product2 a:nth-child(2) .info_img{background-image: url("../img/con2_img5.png");}
+.product2 a:nth-child(3) .info_img{background-image: url("../img/con2_img6.png");}
+
+.product3 a:nth-child(1) .info_img{background-image: url("../img/con2_img7.png");}
+.product3 a:nth-child(2) .info_img{background-image: url("../img/con2_img8.png");}
+.product3 a:nth-child(3) .info_img{background-image: url("../img/con2_img9.png");}
 
 .product a:after {content: "";display: block;width: 100%;height: 100%;position: absolute;bottom: 0;left: 0;background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .5) 90%);
 	opacity: 0;transition: all .5s;}
@@ -134,13 +132,17 @@ input[name="tab_item"] {display: none;}
 .con4_prev{margin-right: 16px;}
 #con4 .swiper-scrollbar{width: 840px;position: absolute;bottom: 10px;left: 0;}
 
+/*모바일에서만*/
+#con4_1{display: none;}
+#con4_2{display: none;}
+
 /*#con5 시작*/
 #con5{width: 1280px;margin: 0 auto;padding-top: 80px;position: relative;}
 #con5 .swiper-slide{position: relative;width: 100%;height:550px;}
 #con5 .info_img{width: 850px;height: 550px;position: absolute;top: 0;right: 0;}
 #con5 .info_img span{position: absolute;bottom: 20px;right: 20px;color: #ddd;line-height: 20px;text-align: right;font-size: 0.8em;font-weight: bold;}
 #con5 .info_txt{position: absolute;top: 95px;left:0;width: 500px;height: 360px;padding: 100px 50px 0 50px;background: #f8f8f8;}
-#con5 .info_txt span{color: #999;}
+#con5 .info_txt span{color: #a49671;}
 #con5 .info_txt h2{color: #333;padding-top: 10px;}
 #con5 .info_txt h2 span{color: #333;border-bottom: 3px solid #a49671;padding: 6px 0;}
 #con5 .info_txt p{line-height: 24px;padding-top: 20px;}
