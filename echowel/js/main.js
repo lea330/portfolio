@@ -10,6 +10,12 @@ $(document).ready(function(){
 	  })
 
 	  $("html, body").animate({ scrollTop: 0 }, "slow"); 
+
+	//모바일 메뉴 버튼 이벤트
+	$('.all').on('click',function(){
+		$(this).toggleClass('on');
+		$('.menu_wrap').toggleClass('on');
+	})
 	
 
 });

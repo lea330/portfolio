@@ -24,7 +24,7 @@ header.active{background: #fff;}
 .header_in{width:1200px;margin:0 auto;position: absolute;top: 0;left: calc(50% - 600px);}
 .logo{display: inline-block;height: 70px;}
 .logo img{width: 140px;margin-top:18px;}
-.menu{float: right;margin-top:18px;}
+.menu_wrap{float: right;margin-top:18px;}
 .menu li{float: left;margin-left: 40px;}
 .menu li a{padding: 8px 16px;}
 .menu li:last-child a{background: #44448f;color: #fff;border-radius: 50px;}

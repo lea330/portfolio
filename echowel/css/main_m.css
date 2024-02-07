@@ -7,15 +7,19 @@ button{font-size: 1.4em;}
 
 header{height: 100px;}
 .header_in{width: 100%;left:0}
-.menu{display: none;}
+.menu_wrap{visibility:hidden;padding: 60px 0 0 30px;
+    transition: all 0.2s;margin-top:0;position: absolute;top: 0;right: 0;width:0%;height:100vh;background: rgba(0,0,0,.8);color: #fff;}
+.menu_wrap.on{visibility: visible;width:40%;}
+.menu li{clear:both;margin-left: 0;padding: 8px 0;}
 .logo{padding: 33px 0 0 24px;}
 .logo img{margin-top:0;}
 
 .all{width: 24px;height: 24px;position: absolute;right: 24px;top:38px;}
 .all ul{width:100%;height:100%;padding:5px 2px;}
-.all ul li{width: 20px;height: 2px;margin-bottom: 4px;background: #44448f;float: right;}
+.all ul li{transition: all 0.2s;width: 20px;height: 2px;margin-bottom: 4px;background: #44448f;float: right;}
 .all ul li:first-child{width: 10px;}
 .all ul li:last-child{margin-bottom:0;}
+.all.on ul li{background: #fff;}
 .all.on ul li:first-child{transform: rotate(45deg);position:absolute;top: 11px;width: 20px;}
 .all.on ul li:nth-child(2){display: none;}
 .all.on ul li:last-child{transform: rotate(-45deg);position:absolute;bottom: 11px;}
