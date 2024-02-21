@@ -95,7 +95,7 @@
         -webkit-box-orient: vertical;}
     #con5 .info_txt .bg{width: 90%;height: 280px;background: #f8f8f8;position: absolute;top:0;left:0;}
     .con5_nav{display: none;}
-    #con5 .view{width: 60px;height: 60px;background: url(../img/arrow1_g.png);position: absolute;top:150px;right: 24px;}
+    #con5 .view{width: 60px;height: 60px;background: url(../img/arrow1_g.png);position: absolute;top:150px;right: 24px;cursor: pointer;z-index:101;}
 
     .footer{width: calc(100% - 48px);margin: 0 24px;font-size: 1.2em;}
 

@@ -146,7 +146,7 @@ input[name="tab_item"] {display: none;}
 #con5 .info_txt h2{color: #333;padding-top: 10px;}
 #con5 .info_txt h2 span{color: #333;border-bottom: 3px solid #a49671;padding: 6px 0;}
 #con5 .info_txt p{line-height: 24px;padding-top: 20px;}
-.con5_nav{position: absolute;bottom: -20px;left: 50px;}
+.con5_nav{position: absolute;bottom: -20px;left: 50px;z-index: 101;}
 .con5_prev, .con5_next{width: 60px;height: 60px;display: inline-block;cursor: pointer;}
 .con5_prev{margin-right: 16px;}
 
