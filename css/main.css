@@ -31,7 +31,7 @@ p{font-size: .8em;}
 
 section{}
 
-#nav{position: fixed;top:0;right:0;}
+#nav{position: fixed;top:0;right:0;z-index: 101;}
 #nav li{padding:12px 30px;float: left;}
 
 /* #con1 시작 */
@@ -152,4 +152,9 @@ section{}
   #con3 .con_in .memoji{margin: 20px auto;}
   .p_center{text-align: center;}
 
+}
+
+@media ( max-height: 600px ) {
+  #con3{padding: 4% 0;}
+  #con3 .con_in p{line-height: 16px;}
 }
