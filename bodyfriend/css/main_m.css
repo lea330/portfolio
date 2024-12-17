@@ -33,7 +33,7 @@
 
     /*#con2 시작*/
     #con2{margin: 80px 24px 0 24px;}
-    .tabs{width: 100%;word-spacing: -5px;}
+    .tabs{width: 100%;word-spacing: -5px;font-size: 0.9em;}
     .tab_item{width:30%;margin: 0;}
     .one{left: 0;}
     .two{left: 36%;}
