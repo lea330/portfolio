@@ -7,7 +7,7 @@ button{font-size: 1.4em;}
 
 header{height: 100px;}
 .header_in{width: 100%;left:0}
-.menu_wrap{visibility:hidden;padding: 60px 0 0 30px;
+.menu_wrap{visibility:hidden;padding: 60px 0 0 20px;
     transition: all 0.2s;margin-top:0;position: absolute;top: 0;right: 0;width:0%;height:100vh;background: rgba(0,0,0,.8);color: #fff;}
 .menu_wrap.on{visibility: visible;width:40%;}
 .menu li{clear:both;margin-left: 0;padding: 8px 0;}
@@ -26,6 +26,7 @@ header{height: 100px;}
 
 #con1 .mb{width:100%;}
 .mb_txt{width:100%;padding: 200px 24px;}
+.mb_txt h1{font-size: 2.2em;line-height: 48px;}
 .mb_img{width:100%;}
 .mb_img img{width:100%;}
 
