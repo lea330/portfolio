@@ -143,6 +143,9 @@ section{}
   #list li{width: 50%;}
 
   .pop_in {padding: 16% 5%;}
+  .button_wrap{position: absolute;top:72px;right:38%;}
+  .button_wrap button{display:block;padding: 8px 16px;}
+  .button_wrap button:nth-child(1){margin-bottom:8px;}
 
   /* #con3 시작 */
   #con3{height: auto;}
@@ -151,7 +154,7 @@ section{}
   #con3 .con_in_wrap .right{width: 100%;}
   #con3 .con_in .memoji{margin: 20px auto;}
   .p_center{text-align: center;}
-
+  
 }
 
 @media ( max-height: 600px ) {
